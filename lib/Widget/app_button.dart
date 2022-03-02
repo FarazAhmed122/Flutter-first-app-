@@ -19,6 +19,7 @@ class AppButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(15),
           ),
           child: GestureDetector(
+
             onTap: Onpress,
             child: Text(lable),
 
